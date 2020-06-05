@@ -1,5 +1,5 @@
 <Type Name="MRefDelegate&lt;K,T,L&gt;" FullName="CatLibrary.MRefDelegate&lt;K,T,L&gt;">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="476246bf6c348b9270ebdbf30d5f68596e6145d0" /><Meta Name="ms.sourcegitcommit" Value="22ad0c564d557427b681e25b7b17378b4b9fbd91" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="05/27/2020" /><Meta Name="ms.locfileid" Value="84104818" /></Metadata><TypeSignature Language="C#" Value="public delegate void MRefDelegate&lt;in K,T,L&gt;(K k, T t, L l) where K : class, IComparable where T : struct where L : Tom, IEnumerable&lt;long&gt;;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="476246bf6c348b9270ebdbf30d5f68596e6145d0" /><Meta Name="ms.sourcegitcommit" Value="22ad0c564d557427b681e25b7b17378b4b9fbd91" /><Meta Name="ms.translationtype" Value="MT Edit" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="05/27/2020" /><Meta Name="ms.locfileid" Value="84104818" /></Metadata><TypeSignature Language="C#" Value="public delegate void MRefDelegate&lt;in K,T,L&gt;(K k, T t, L l) where K : class, IComparable where T : struct where L : Tom, IEnumerable&lt;long&gt;;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MRefDelegate`3&lt;class (class System.IComparable) - K, struct .ctor (class System.ValueType) T, (class CatLibrary.Tom, class System.Collections.Generic.IEnumerable`1&lt;int64&gt;) L&gt; extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:CatLibrary.MRefDelegate`3" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub MRefDelegate(Of In K, T, L)(k As K, t As T, l As L)" />
@@ -50,7 +50,7 @@
     <param name="k">Tipo K.</param>
     <param name="t">Tipo T.</param>
     <param name="l">Tipo L.</param>
-    <summary>Delegado genérico com muitas restrições. [MODIFIED]</summary>
+    <summary>CHANGED Delegado genérico com muitas restrições.</summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>
