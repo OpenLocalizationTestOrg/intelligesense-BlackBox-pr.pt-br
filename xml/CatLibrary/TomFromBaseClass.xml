@@ -1,5 +1,5 @@
 <Type Name="TomFromBaseClass" FullName="CatLibrary.TomFromBaseClass">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="df3f2377ddbd77e44a76766b33cfe6102d07fdfe" /><Meta Name="ms.sourcegitcommit" Value="22ad0c564d557427b681e25b7b17378b4b9fbd91" /><Meta Name="ms.translationtype" Value="MT Edit" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="05/27/2020" /><Meta Name="ms.locfileid" Value="84104812" /></Metadata><TypeSignature Language="C#" Value="public class TomFromBaseClass : CatLibrary.Tom" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="df3f2377ddbd77e44a76766b33cfe6102d07fdfe" /><Meta Name="ms.sourcegitcommit" Value="22ad0c564d557427b681e25b7b17378b4b9fbd91" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="06/05/2020" /><Meta Name="ms.locfileid" Value="84104812" /></Metadata><TypeSignature Language="C#" Value="public class TomFromBaseClass : CatLibrary.Tom" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TomFromBaseClass extends CatLibrary.Tom" />
   <TypeSignature Language="DocId" Value="T:CatLibrary.TomFromBaseClass" />
   <TypeSignature Language="VB.NET" Value="Public Class TomFromBaseClass&#xA;Inherits Tom" />
@@ -15,7 +15,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>*TomFromBaseClass* herda de@CatLibrary.Tom</summary>
+    <summary>MODIFIED *TomFromBaseClass* herda de@CatLibrary.Tom</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
