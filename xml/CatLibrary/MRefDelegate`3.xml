@@ -1,5 +1,5 @@
 <Type Name="MRefDelegate&lt;K,T,L&gt;" FullName="CatLibrary.MRefDelegate&lt;K,T,L&gt;">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="476246bf6c348b9270ebdbf30d5f68596e6145d0" /><Meta Name="ms.sourcegitcommit" Value="22ad0c564d557427b681e25b7b17378b4b9fbd91" /><Meta Name="ms.translationtype" Value="MT Edit" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="05/27/2020" /><Meta Name="ms.locfileid" Value="84104818" /></Metadata><TypeSignature Language="C#" Value="public delegate void MRefDelegate&lt;in K,T,L&gt;(K k, T t, L l) where K : class, IComparable where T : struct where L : Tom, IEnumerable&lt;long&gt;;" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="476246bf6c348b9270ebdbf30d5f68596e6145d0" /><Meta Name="ms.sourcegitcommit" Value="22ad0c564d557427b681e25b7b17378b4b9fbd91" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="pt-BR" /><Meta Name="ms.lasthandoff" Value="06/05/2020" /><Meta Name="ms.locfileid" Value="84104818" /></Metadata><TypeSignature Language="C#" Value="public delegate void MRefDelegate&lt;in K,T,L&gt;(K k, T t, L l) where K : class, IComparable where T : struct where L : Tom, IEnumerable&lt;long&gt;;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MRefDelegate`3&lt;class (class System.IComparable) - K, struct .ctor (class System.ValueType) T, (class CatLibrary.Tom, class System.Collections.Generic.IEnumerable`1&lt;int64&gt;) L&gt; extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:CatLibrary.MRefDelegate`3" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub MRefDelegate(Of In K, T, L)(k As K, t As T, l As L)" />
@@ -44,13 +44,13 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <typeparam name="K"><span data-ttu-id="5ae0b-101">Genérico K.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-101">Generic K.</span></span></typeparam>
-    <typeparam name="T"><span data-ttu-id="5ae0b-102">Genérico T.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-102">Generic T.</span></span></typeparam>
-    <typeparam name="L"><span data-ttu-id="5ae0b-103">Genérico L.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-103">Generic L.</span></span></typeparam>
-    <param name="k"><span data-ttu-id="5ae0b-104">Tipo K.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-104">Type K.</span></span></param>
-    <param name="t"><span data-ttu-id="5ae0b-105">Tipo T.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-105">Type T.</span></span></param>
-    <param name="l"><span data-ttu-id="5ae0b-106">Tipo L.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-106">Type L.</span></span></param>
-    <summary><span data-ttu-id="5ae0b-107">CHANGED Delegado genérico com muitas restrições.</span><span class="sxs-lookup"><span data-stu-id="5ae0b-107">Generic delegate with many constrains.</span></span></summary>
+    <typeparam name="K"><span data-ttu-id="c07f0-101">Genérico K.</span><span class="sxs-lookup"><span data-stu-id="c07f0-101">Generic K.</span></span></typeparam>
+    <typeparam name="T"><span data-ttu-id="c07f0-102">Genérico T.</span><span class="sxs-lookup"><span data-stu-id="c07f0-102">Generic T.</span></span></typeparam>
+    <typeparam name="L"><span data-ttu-id="c07f0-103">Genérico L.</span><span class="sxs-lookup"><span data-stu-id="c07f0-103">Generic L.</span></span></typeparam>
+    <param name="k"><span data-ttu-id="c07f0-104">MODIFIED Tipo K.</span><span class="sxs-lookup"><span data-stu-id="c07f0-104">Type K.</span></span></param>
+    <param name="t"><span data-ttu-id="c07f0-105">Tipo T.</span><span class="sxs-lookup"><span data-stu-id="c07f0-105">Type T.</span></span></param>
+    <param name="l"><span data-ttu-id="c07f0-106">Tipo L.</span><span class="sxs-lookup"><span data-stu-id="c07f0-106">Type L.</span></span></param>
+    <summary><span data-ttu-id="c07f0-107">MODIFIED Delegado genérico com muitas restrições.</span><span class="sxs-lookup"><span data-stu-id="c07f0-107">Generic delegate with many constrains.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>
